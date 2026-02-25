@@ -1,33 +1,50 @@
 body{
-    background-color:white;
+background-color: rgb(190, 190, 190);
+margin: 0px;
 }
-#menu_do_robo {
-    margin:5px;
-    padding:100px;
-    margin-right: 600px;
-    display:flex;
-    background-color:rgb(200, 226, 243);
-    border-radius:30px;
+
+h1{
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 8px;
 }
-h3 {
-    display:flex;
-    color:blue;
-    font-family:sans-serif;
+p{
+font-family: Arial, Helvetica, sans-serif;
 }
-#botao {
-  height:25px;
-    width:100px;
-     display:flex;
-    color:white;
-    background-color:blue;
-    align-items:center;
-    flex-wrap:wrap;
-    padding:5px;
-    border-radius:40%;
-    border: 2px solid rgb(0, 0, 0);
+
+#undo{
+transform: scaleX(-1);
 }
-#robo{
-     display:flex;
-    width: 250px;
-    height: 250px;
+#Square90{
+transform: rotate(270deg)
+}
+#Square180{
+transform: rotate(180deg)
+}
+#barber{
+width:2200px;
+height: 32px;
+}
+
+#botoes{
+display: flex;
+text-align: center;
+justify-content: left;
+align-items: top;
+padding: 10px;
+gap: 20px;
+border: 1px solid rgb(0, 0, 0);
+
+}
+.botao{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.icons{
+height: 32px;
+width: 32px;
 }
