@@ -1,0 +1,33 @@
+body{
+    background-color:white;
+}
+#menu_do_robo {
+    margin:5px;
+    padding:100px;
+    margin-right: 600px;
+    display:flex;
+    background-color:rgb(200, 226, 243);
+    border-radius:30px;
+}
+h3 {
+    display:flex;
+    color:blue;
+    font-family:sans-serif;
+}
+#botao {
+  height:25px;
+    width:100px;
+     display:flex;
+    color:white;
+    background-color:blue;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:5px;
+    border-radius:40%;
+    border: 2px solid rgb(0, 0, 0);
+}
+#robo{
+     display:flex;
+    width: 250px;
+    height: 250px;
+}
