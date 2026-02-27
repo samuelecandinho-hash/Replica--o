@@ -7,11 +7,11 @@ h1{
 font-family: Arial, Helvetica, sans-serif;
 padding-left: 8px;
 }
-h3 {
+h3{
     display:flex;
     color:blue;
     font-family:sans-serif;
-    
+}
 p{
 font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,7 +30,7 @@ width:2200px;
 height: 32px;
 }
 
-#botoes{
+#botoes2{
 display: flex;
 text-align: center;
 justify-content: left;
@@ -40,7 +40,7 @@ gap: 20px;
 border: 1px solid rgb(0, 0, 0);
 
 }
-.botao{
+.botao2{
     display: flex;
     gap: 4px;
     align-items: center;
@@ -52,4 +52,32 @@ border: 1px solid rgb(0, 0, 0);
 .icons{
 height: 32px;
 width: 32px;
+}
+
+#Navigation{
+    display: flex;
+    background-color: rgb(211, 211, 211);
+    gap: 24px;
+    width: 25%;
+}
+
+#pages{
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+.border{
+    border-spacing: 0;
+    width: 25%;
+    display: table;
+    border: 1px solid #3f3f3f;
+}
+th{
+    background-color: rgb(139, 139, 139);
+    border: 1px solid #3f3f3f;
+    padding: 6px;
+}
+td{
+    background-color: rgb(199, 199, 199);
+    border: 1px solid #3f3f3f;
+    padding: 6px;
 }
